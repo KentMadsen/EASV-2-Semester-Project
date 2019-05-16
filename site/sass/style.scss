@@ -1,0 +1,36 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#application
+{
+    display:grid;
+
+    grid-template-rows: auto auto auto;
+    grid-gap: 16px;
+
+
+}
+
+header
+{
+    display: block;
+    
+
+}
+
+main 
+{
+    display: block;
+
+}
+
+footer 
+{
+    
+    display: block;
+
+}
