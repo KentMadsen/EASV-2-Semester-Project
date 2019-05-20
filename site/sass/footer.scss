@@ -131,6 +131,29 @@ footer
   margin-right: 0px;
 }
 
+.sponsor
+{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 32px;
+}
+
+.sponsor .container
+{
+  display: inline-flex;
+  margin-left: 16px;
+  margin-right: 16px;
+
+}
+
+.sponsor .container img
+{
+  width: 200px;
+  object-fit:contain;
+
+}
 
 
 .misc p
