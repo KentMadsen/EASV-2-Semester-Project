@@ -66,9 +66,19 @@
   object-fit: cover;
 }
 
+.game-card-content
+{
+  position: relative;
+  width: 100%;
+}
+
 .game-card-content-position
 {
-  background-color: rgba(44, 147, 198, 0.6);
+  background-color: rgba(44, 147, 198, 1.0);
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+
 }
 
 .game-card-content-position p
@@ -97,6 +107,12 @@
 
 .index-about-us p
 {
+  width: 80%;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+
   font-family: 'Roboto';
 }
 
