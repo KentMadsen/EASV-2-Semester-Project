@@ -176,6 +176,7 @@
 
 #front-canvas
 {
+  background-color: black;
   position: absolute;
   top: -32px;
 
@@ -188,13 +189,9 @@
   width: 100%;
   height: 900px;
   position: relative;
-  background-color: red;
+  background-color: black;
 }
 
-#front-canvas-space p
-{
-
-}
 
 #front-canvas-space .front-canvas-container
 {
@@ -205,14 +202,40 @@
 
 #front-canvas-space .front-canvas-container img
 {
+
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+
   width: 100%;
   height: 100%;
 
   object-fit:cover;
 }
 
-.front-canvas-container-info p
+.front-canvas-container-info-position
 {
+}
+
+.front-canvas-container-info
+{
+
+    bottom: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 200px;
+
+}
+
+.front-canvas-container-info-position p
+{
+  font-family: 'open sans';
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: capitalize;
   color: white;
   z-index: 3;
 
