@@ -94,6 +94,45 @@ footer
   margin-right: auto;
 }
 
+.footer-social-media
+{
+  width: 25px;
+  height: 25px;
+}
+
+.footer-social-media i
+{
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer-follow
+{
+  display: flex;
+
+}
+
+.footer-follow li
+{
+  list-style: none;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+
+.footer-follow li:first-child
+{
+  margin-left: 0px;
+}
+
+
+.footer-follow li:last-child
+{
+  margin-right: 0px;
+}
+
+
+
 .misc p
 {
   margin: 0px;
