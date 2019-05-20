@@ -1,11 +1,16 @@
 
 footer
 {
-    background-color: rgba(0, 0, 0, 0.85);
     display: block;
 
     min-height: 100px;
 
+}
+
+.footer-overlay
+{
+
+      background-color: rgba(0, 0, 0, 0.85);
 }
 
 .containers-3-elements
@@ -30,7 +35,7 @@ footer
 .misc
 {
   margin-top: 8px;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 
 }
 
@@ -38,6 +43,24 @@ footer
 {
   padding: 0px;
   margin: 0px;
+
+}
+
+
+.footer-follow-page
+{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+
+}
+
+.footer-follow-page li
+{
+  list-style: none;
+  margin-right: 32px;
+  margin-left: 32px;
 
 }
 
@@ -152,6 +175,19 @@ footer
 {
   width: 200px;
   object-fit:contain;
+
+}
+
+.footer-social
+{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+
+.footer-social a
+{
+  color: black;
 
 }
 
