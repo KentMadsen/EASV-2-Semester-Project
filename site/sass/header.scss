@@ -1,0 +1,96 @@
+
+.header-logo
+{
+  margin-left: auto;
+  margin-right: auto;
+
+  height: $logo-max-size;
+  width: $logo-max-size;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/page-logo.png');
+
+  position: absolute;
+
+}
+
+.header-logo-container
+{
+  position: relative;
+  width:$logo-max-size;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+header
+{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+header nav ul
+{
+  list-style: none;
+
+  margin: 0px;
+
+  padding:0px;
+
+  display: flex;
+}
+
+
+header nav ul:first-child
+{
+  justify-content: flex-end;
+
+}
+
+header nav ul li
+{
+
+  padding-top: 28px;
+  padding-bottom: 28px;
+
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+header nav ul li:first-child
+{
+
+}
+
+header nav ul li:last-child
+{
+
+}
+
+.highlight
+{
+  background-color: #2C93C6;
+}
+
+header nav ul li a
+{
+      color: white;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 20px;
+      font-family: 'candara';
+}
+
+header nav
+{
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: 1fr 200px 1fr;
+}
+
+header nav a
+{
+
+}

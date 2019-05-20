@@ -1,0 +1,168 @@
+
+footer
+{
+    background-color: rgba(0, 0, 0, 0.85);
+    display: block;
+
+    min-height: 100px;
+
+}
+
+.containers-3-elements
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
+
+  width: 100%;
+}
+
+.containers-3-elements .container
+{
+  display: inline-grid;
+}
+
+.container
+{
+
+}
+
+.misc
+{
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+.footer-container-links ul
+{
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.footer-container-links p
+{
+  color: white;
+
+  font-family: 'open sans';
+}
+
+.footer-container-links a
+{
+  color: white;
+  text-decoration: none;
+  font-family: 'open sans';
+}
+
+.footer-container-links li
+{
+  list-style: none;
+
+}
+
+.footer-container-links .footer-container-link
+{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.footer-container-links .footer-container-link:first-child
+{
+    margin-top: 8px;
+}
+
+.footer-container-links .footer-container-link:last-child
+{
+      margin-bottom : 8px;
+}
+
+.footer-container-link a
+{
+  font-size: 14px;
+}
+
+.footer-contact-logo
+{
+  width: 200px;
+  height: 200px;
+
+  background-image: url('../img/page-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-social-media
+{
+  width: 25px;
+  height: 25px;
+}
+
+.footer-social-media i
+{
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer-follow
+{
+  display: flex;
+
+}
+
+.footer-follow li
+{
+  list-style: none;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+
+.footer-follow li:first-child
+{
+  margin-left: 0px;
+}
+
+
+.footer-follow li:last-child
+{
+  margin-right: 0px;
+}
+
+
+
+.misc p
+{
+  margin: 0px;
+  font-size: 12px;
+  color: white;
+  font-family: 'open sans';
+}
+
+.misc ul
+{
+  display: flex;
+
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+}
+
+.misc ul li
+{
+  list-style: none;
+  margin: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.misc a
+{
+
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  font-family: 'open sans';
+}
