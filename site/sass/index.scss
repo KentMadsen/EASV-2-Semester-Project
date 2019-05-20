@@ -116,6 +116,133 @@
   font-family: 'Roboto';
 }
 
+.container-news
+{
+  width: 100%;
+  display: grid;
+  grid-gap: 64px;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+.container-news .container
+{
+  background-color: white;
+
+  width: 100%;
+}
+
+.article
+{
+
+  height: 200px;
+      position: relative;
+}
+
+.article-header
+{
+    width: 100%;
+}
+
+.article-header p
+{
+
+
+  margin: 0px;
+
+  font-family: 'Open Sans';
+  color: white;
+}
+
+.article-header-position
+{
+    width: 100%;
+  background-color: rgba(44, 147, 198, 1.0);
+  position: absolute;
+  bottom: 0px;
+
+
+}
+
+#front
+{
+  width: 100%;
+
+  height: 900px;
+  position: relative;
+
+}
+
+#front-canvas
+{
+  position: absolute;
+  top: -32px;
+
+  width: 100%;
+  height: 900px;
+}
+
+#front-canvas-space
+{
+  width: 100%;
+  height: 900px;
+  position: relative;
+  background-color: red;
+}
+
+#front-canvas-space p
+{
+
+}
+
+#front-canvas-space .front-canvas-container
+{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+#front-canvas-space .front-canvas-container img
+{
+  width: 100%;
+  height: 100%;
+
+  object-fit:cover;
+}
+
+.front-canvas-container-info p
+{
+  color: white;
+  z-index: 3;
+
+
+}
+
+.top
+{
+  z-index: 2;
+}
+
+.bottom
+{
+  z-index: 1;
+}
+
+
+#front-canvas-space .front-canvas-container:first-child
+{
+  left: 0px;
+
+}
+
+#front-canvas-space .front-canvas-container:last-child
+{
+  right: 0px;
+
+
+}
+
 .game-card-content
 {
 

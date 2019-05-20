@@ -74,6 +74,7 @@ footer
 .footer-container-links a
 {
   color: white;
+
   text-decoration: none;
   font-family: 'open sans';
 }
@@ -110,7 +111,7 @@ footer
   width: 200px;
   height: 200px;
 
-  background-image: url('http://www.esport-esbjerg.dk/media/1051/logo2000x2000.png');
+  background-image: url($page-logo);
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: auto;
@@ -187,7 +188,7 @@ footer
 
 .footer-social a
 {
-  color: black;
+  color: white;
 
 }
 
