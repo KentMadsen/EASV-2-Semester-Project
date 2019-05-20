@@ -191,6 +191,58 @@
   background-color: red;
 }
 
+#front-canvas-space p
+{
+
+}
+
+#front-canvas-space .front-canvas-container
+{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+#front-canvas-space .front-canvas-container img
+{
+  width: 100%;
+  height: 100%;
+
+  object-fit:cover;
+}
+
+.front-canvas-container-info p
+{
+  color: white;
+  z-index: 3;
+
+
+}
+
+.top
+{
+  z-index: 2;
+}
+
+.bottom
+{
+  z-index: 1;
+}
+
+
+#front-canvas-space .front-canvas-container:first-child
+{
+  left: 0px;
+
+}
+
+#front-canvas-space .front-canvas-container:last-child
+{
+  right: 0px;
+
+
+}
+
 .game-card-content
 {
 
