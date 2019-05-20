@@ -116,6 +116,55 @@
   font-family: 'Roboto';
 }
 
+.container-news
+{
+  width: 100%;
+  display: grid;
+  grid-gap: 64px;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+.container-news .container
+{
+  background-color: white;
+
+  width: 100%;
+}
+
+.article
+{
+
+  height: 200px;
+      position: relative;
+}
+
+.article-header
+{
+    width: 100%;
+}
+
+.article-header p
+{
+
+
+  margin: 0px;
+
+  font-family: 'Open Sans';
+  color: white;
+}
+
+.article-header-position
+{
+    width: 100%;
+  background-color: rgba(44, 147, 198, 1.0);
+  position: absolute;
+  bottom: 0px;
+
+
+}
+
 .game-card-content
 {
 
