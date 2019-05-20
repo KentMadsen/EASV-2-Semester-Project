@@ -45,6 +45,14 @@ main
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c93c6', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
 
+h2
+{
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 32px;
+  text-align: center;
+}
+
 @import './header.scss';
 @import './footer.scss';
 
