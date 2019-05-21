@@ -16,7 +16,7 @@ body
 
 }
 
-$logo-min-size:80px;
+$logo-min-size: 80px;
 $logo-max-size: 160px;
 
 .split-container
@@ -53,13 +53,22 @@ h2
   text-align: center;
 }
 
+//
 @import './urls.scss';
+@import './variables.scss';
 
+/* Template Area */
+@import './templates/containment.scss';
+@import './templates/defined.scss';
+@import './templates/page.scss';
 
-@import './templates/page_templates.scss';
-
+/* Page Area */
 @import './page/header.scss';
 @import './page/footer.scss';
+@import './page/navigation.scss';
+
+/* Site Area */
+@import './site/index.scss';
 
 
-@import './index.scss';
+/* Custom Area */
