@@ -55,8 +55,11 @@ h2
 
 @import './urls.scss';
 
-@import './header.scss';
-@import './footer.scss';
+
+@import './templates/page_templates.scss';
+
+@import './page/header.scss';
+@import './page/footer.scss';
 
 
 @import './index.scss';

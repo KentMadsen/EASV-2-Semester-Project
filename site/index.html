@@ -16,6 +16,8 @@
         <meta name="author" content="Kent Madsen, Christian Krogsgaard, Niclas Neumann"/>
         <meta name="robots" content="index, follow"/>
 
+        <meta charset="utf-8" />
+
         <title>
             Esport Esbjerg - Home
         </title>
@@ -37,26 +39,33 @@
 
     <body>
         <div id="application" class="background">
-            <header>
+          <header class="header-placeholder">
+          </header>
+
+            <header class="header-desktop">
                 <nav>
                     <ul>
+
                         <li>
-                            <a href="#" hreflang="en">
-                                Hjem
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" hreflang="en">
+                            <a href="#"
+                               hreflang="en"
+                               title="">
                                 spil
                             </a>
                         </li>
+
                         <li>
-                            <a href="#" hreflang="en">
+                            <a href="#"
+                               hreflang="en"
+                               title="">
                                 hold
                             </a>
                         </li>
+
                         <li>
-                            <a href="#" hreflang="en">
+                            <a href="#"
+                               hreflang="en"
+                               title="">
                                 om os
                             </a>
                         </li>
@@ -64,34 +73,47 @@
 
                     <div>
                       <div class="header-logo-container">
+                        <a href="#"
+                           hreflang="en">
+
                           <!-- Icon -->
-                          <div class="header-logo">
+                          <div id="header-logo-desktop-area" class="header-logo">
 
                           </div>
+                        </a>
                       </div>
                     </div>
 
                     <ul>
                         <li>
-                            <a href="#" hreflang="en">
+                            <a href="#"
+                               hreflang="en"
+                               title="">
                                 kalendar
                             </a>
                         </li>
 
                         <li>
-                            <a href="#" hreflang="en">
-                                general info
+                            <a href="#"
+                               hreflang="en"
+                               title="">
+                                general information
                             </a>
                         </li>
                         <li>
-                            <a href="#" hreflang="en">
+                            <a href="#"
+                               hreflang="en"
+                               title="">
                                 kontakt
                             </a>
                         </li>
 
+                        <!-- Medlemskab ? -->
                         <li class="highlight">
-                            <a href="#" hreflang="en">
-                                log in / bliv medlem
+                            <a href="https://esport-data.designermadsen.com/wp-login.php"
+                               hreflang="en"
+                               title="">
+                                Medlemskab
                             </a>
                         </li>
                     </ul>
@@ -105,7 +127,8 @@
                       <div id="front-canvas-space">
 
                         <div class="front-canvas-container top">
-                          <img src="https://i.imgur.com/DAmiLDk.png" />
+                          <img src="https://i.imgur.com/DAmiLDk.png"/>
+
                           <div class="front-canvas-container-info">
                             <div class="front-canvas-container-info-position">
                               <p> text </p>
@@ -114,7 +137,8 @@
                         </div>
 
                         <div class="front-canvas-container bottom">
-                          <img src="https://i.imgur.com/4E92KGx.png" />
+                          <img src="https://i.imgur.com/4E92KGx.png"/>
+
                           <div class="front-canvas-container-info">
                             <div class="front-canvas-container-info-position">
                               <p> text </p>
@@ -167,7 +191,7 @@
                         <div class="game-card-content">
                           <div class="game-card-content-position">
                             <p>
-                              Counter-Strike Global Offensive
+                              Overwatch
                             </p>
                             <p>
                               <a href="#" hreflang="dk" title="">
@@ -189,7 +213,7 @@
                         <div class="game-card-content">
                           <div class="game-card-content-position">
                             <p>
-                              Counter-Strike Global Offensive
+                              Fortnite
                             </p>
                             <p>
                               <a href="#" hreflang="dk" title="">
@@ -504,5 +528,8 @@
             </div>
             </footer>
     </body>
+
+    <script src="./js/scroll.js">
+    </script>
 
 </html>
