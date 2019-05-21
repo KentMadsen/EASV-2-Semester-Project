@@ -3,16 +3,10 @@
 
 }
 
-
-#train
-{
-
-}
-
-
 .boundary
 {
   width: 1080px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -135,9 +129,8 @@
 
 .article
 {
-
   height: 200px;
-      position: relative;
+  position: relative;
 }
 
 .article-header
@@ -157,7 +150,9 @@
 
 .article-header-position
 {
-    width: 100%;
+
+  width: 100%;
+
   background-color: rgba(44, 147, 198, 1.0);
   position: absolute;
   bottom: 0px;
@@ -203,8 +198,8 @@
 #front-canvas-space .front-canvas-container img
 {
 
-  opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
 
   width: 100%;
   height: 100%;
