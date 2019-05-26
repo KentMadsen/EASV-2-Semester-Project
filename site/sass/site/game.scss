@@ -1,0 +1,63 @@
+.site-game-card
+{
+    height: 612px;
+    width: 100%;
+    position: relative;
+
+
+    background-color: #11537B;
+}
+
+.site-game-card img 
+{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.site-game-card img 
+{
+    position: absolute;
+
+}
+
+.site-game-content
+{
+    background-color: #052B43;
+    width: 100%;
+    
+    position: absolute;
+    bottom: 0px;
+}
+
+.site-game-content p
+{
+    
+    text-align: center;
+    color: white;
+}
+
+.site-game-content-title
+{
+    font-family: 'open sans';
+    font-size: 40px;
+    
+    margin: 0px;
+
+    margin-top: 8px;
+    margin-bottom: 12px;
+
+}
+
+.site-game-content-description
+{
+    font-family: 'roboto';
+    margin-bottom: 32px;
+
+}
+
+.site-game-split
+{
+    margin-top: 64px;
+}
