@@ -128,6 +128,25 @@
                   </div>
                 </div>
 
+                <div class="page-decoration">
+                  <div class="page-grid-1">
+                    <div class="page-space">
+
+                    </div>
+                    
+                    <div class="page-decoration-section-shift">
+                      <div class="decoration-shift">
+
+                      </div>
+                    </div>
+                    
+                    <div class="page-space">
+
+                    </div>
+                  </div> 
+                  
+                </div>
+
                 <div class="page-boundary-grid">
                 <section class="site-parents-section">
                   <h2>
@@ -156,6 +175,25 @@
                 </section>
               </div>
 
+              <div class="page-decoration">
+                  <div class="page-grid-1">
+                    <div class="page-space">
+
+                    </div>
+                    
+                    <div class="page-decoration-section-shift">
+                      <div class="decoration-shift">
+
+                      </div>
+                    </div>
+                    
+                    <div class="page-space">
+
+                    </div>
+                  </div> 
+                  
+                </div>
+
               <div class="page-boundary-grid">
                 <section class="site-parents-section">
                     <h2>
@@ -176,6 +214,25 @@
                   
                 </section>
                 </div>
+
+                <div class="page-decoration">
+                    <div class="page-grid-1">
+                      <div class="page-space">
+  
+                      </div>
+                      
+                      <div class="page-decoration-section-shift">
+                        <div class="decoration-shift">
+  
+                        </div>
+                      </div>
+                      
+                      <div class="page-space">
+  
+                      </div>
+                    </div> 
+                    
+                  </div>
 
                 <div class="page-boundary-grid">
                 <section class="site-parents-section">
@@ -198,6 +255,25 @@
                       </div>
                 </section>
                 </div>
+
+                <div class="page-decoration">
+                    <div class="page-grid-1">
+                      <div class="page-space">
+  
+                      </div>
+                      
+                      <div class="page-decoration-section-shift">
+                        <div class="decoration-shift">
+  
+                        </div>
+                      </div>
+                      
+                      <div class="page-space">
+  
+                      </div>
+                    </div> 
+                    
+                  </div>
 
                 <div class="page-boundary-grid">
                 <section class="site-parents-section">
