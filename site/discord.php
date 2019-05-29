@@ -195,12 +195,6 @@
         
                         </section>
                       </div>
-
-                  <div>
-                    <a>
-                      Discord
-                    </a>
-                  </div>
           </main>
 
             <footer>
