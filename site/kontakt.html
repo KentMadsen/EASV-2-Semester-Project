@@ -63,12 +63,21 @@
                 <nav>
                     <ul>
                       <template v-for="item in navigationHeaderFirst">
-                        <li class="header-menu-button">
+                        <li class="header-menu-button highlight" 
+                            v-if="item.active">
+
                           <a v-bind:href="item.url"
                              v-bind:hreflang="item.language">
                             {{ item.name }}
                           </a>
                         </li>
+
+                        <li class="header-menu-button" v-else>
+                            <a v-bind:href="item.url"
+                               v-bind:hreflang="item.language">
+                              {{ item.name }}
+                            </a>
+                          </li>
                       </template>
 
                     </ul>
@@ -89,13 +98,22 @@
 
                     <ul>
                         <template v-for="item in navigationHeaderSecond">
-                            <li class="header-menu-button">
-                              <a v-bind:href="item.url"
-                                 v-bind:hreflang="item.language">
+                          <li class="header-menu-button highlight" 
+                              v-if="item.active">
+                              
+                            <a v-bind:href="item.url"
+                               v-bind:hreflang="item.language">
                                 {{ item.name }}
-                              </a>
-                            </li>
-                          </template>
+                            </a>
+                          </li>
+
+                          <li class="header-menu-button" v-else>
+                            <a v-bind:href="item.url"
+                               v-bind:hreflang="item.language">
+                              {{ item.name }}
+                            </a>
+                          </li>
+                        </template>
                     </ul>
                 </nav>
             </header>
@@ -432,15 +450,12 @@
           </div>
     </body>
 
-    <script src="./framework/vue.js">
-    </script>
+  <script src="./framework/vue.js">
+  </script>
 
-    <script src="./js/active.js">
-    </script>
+  <script src="./js/scroll.js">
+  </script>
 
-    <script src="./js/scroll.js">
-    </script>
-
-    <script src="./js/navigation.js">
-    </script>
+  <script src="./js/navigation.js">
+  </script>
 </html>

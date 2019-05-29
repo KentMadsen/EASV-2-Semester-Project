@@ -9,31 +9,36 @@ var menu = new Vue(
               {
                   url: './index.html',
                   name: 'home',
-                  language: 'en'
+                  language: 'en',
+                  active:true
               },
 
               {
                 url: './discord.html',
                 name: 'discord',
-                language: 'en'
+                language: 'en',
+                active:false
               },
 
               {
                 url: './nyheder.html',
                 name: 'nyheder',
-                language: 'en'
+                language: 'en',
+                active:false
               },
 
               {
                 url: './spil.html',
                 name: 'spil',
-                language: 'en'
+                language: 'en',
+                active:false
               },
 
               {
                 url: './hold.html',
                 name: 'hold',
-                language: 'en'
+                language: 'en',
+                active:false
               }
           ],
 
@@ -42,31 +47,36 @@ var menu = new Vue(
             {
                 url: './about.html',
                 name: 'about',
-                language: 'en'
+                language: 'en',
+                active:false
             },
 
             {
               url: './forældre.html',
               name: 'forældre',
-              language: 'en'
+              language: 'en',
+              active:false
             },
 
             {
               url: './kalendar.html',
               name: 'kalendar',
-              language: 'en'
+              language: 'en',
+              active:false
             },
 
             {
               url: './kontakt.html',
               name: 'kontakt',
-              language: 'en'
+              language: 'en',
+              active:false
             },
 
             {
               url: 'https://esport-data.designermadsen.com/wp-login.php',
               name: 'login',
-              language: 'en'
+              language: 'en',
+              active:false
             }
               
           ]
