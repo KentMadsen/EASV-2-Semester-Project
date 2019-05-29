@@ -9,7 +9,8 @@
         <meta http-equiv="X-UA-Compatible"
               content="ie=edge">
 
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" 
+              href="./css/style.css">
 
         <meta name="description"
               content="Skole opgaver for Esport Esbjerg"/>
@@ -58,109 +59,65 @@
           <header class="header-placeholder">
           </header>
 
-          <header class="header-desktop">
-              <nav>
-                  <ul>
-                      <li>
-                          <a href="./index.html"
-                             hreflang="en"
-                             title="">
-                              Forside
+          <header class="header-desktop" 
+                    id="menu-navigation">
+                <nav>
+                    <ul>
+                      <template v-for="item in navigationHeaderFirst">
+                        <li class="header-menu-button highlight" 
+                            v-if="item.active">
+
+                          <a v-bind:href="item.url"
+                             v-bind:hreflang="item.language">
+                            {{ item.name }}
                           </a>
-                      </li>
+                        </li>
 
-                      <li>
-                          <a href="./discord.html"
-                             hreflang="en"
-                             title="">
-                              Discord
-                          </a>
-                      </li>
+                        <li class="header-menu-button" v-else>
+                            <a v-bind:href="item.url"
+                               v-bind:hreflang="item.language">
+                              {{ item.name }}
+                            </a>
+                          </li>
+                      </template>
 
-                      <li>
-                          <a href="./nyheder.html"
-                             hreflang="en"
-                             title="">
-                              Nyheder
-                          </a>
-                      </li>
+                    </ul>
 
-                      <li>
-                          <a href="./spil.html"
-                             hreflang="en"
-                             title="">
-                              Spil
-                          </a>
-                      </li>
+                    <div>
+                      <div class="header-logo-container">
+                        <a href="#"
+                           hreflang="en">
 
-                      <li>
-                          <a href="./hold.html"
-                             hreflang="en"
-                             title="">
-                              Hold
-                          </a>
-                      </li>
+                          <!-- Icon -->
+                          <div id="header-logo-desktop-area"
+                               class="header-logo">
 
-                  </ul>
-
-                  <div>
-                    <div class="header-logo-container">
-                      <a href="#"
-                         hreflang="en">
-
-                        <!-- Icon -->
-                        <div id="header-logo-desktop-area"
-                             class="header-logo">
-
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <ul>
-                    <li>
-                      <a href="./about.html"
-                         hreflang="en"
-                         title="">
-                          Om os
-                      </a>
-                    </li>
-
-                    <li>
-                        <a href="./forældre.html"
-                           hreflang="en"
-                           title="">
-                            Forældre
+                          </div>
                         </a>
-                    </li>
+                      </div>
+                    </div>
 
-                      <li>
-                          <a href="./kalendar.html"
-                             hreflang="en"
-                             title="">
-                              Kalendar
-                          </a>
-                      </li>
+                    <ul>
+                        <template v-for="item in navigationHeaderSecond">
+                          <li class="header-menu-button highlight" 
+                              v-if="item.active">
+                              
+                            <a v-bind:href="item.url"
+                              v-bind:hreflang="item.language">
+                                {{ item.name }}
+                            </a>
+                          </li>
 
-                      <li>
-                          <a href="./kontakt.html"
-                             hreflang="en"
-                             title="">
-                              Kontakt
-                          </a>
-                      </li>
-
-                      <!-- Medlemskab ? -->
-                      <li>
-                          <a href="https://esport-data.designermadsen.com/wp-login.php"
-                             hreflang="en"
-                             title="">
-                              Login
-                          </a>
-                      </li>
-                  </ul>
-              </nav>
-          </header>
+                          <li class="header-menu-button" v-else>
+                            <a v-bind:href="item.url"
+                              v-bind:hreflang="item.language">
+                              {{ item.name }}
+                            </a>
+                          </li>
+                        </template>
+                    </ul>
+                </nav>
+            </header>
 
             <main>
               
@@ -182,11 +139,18 @@
                         <div  class="page-grid-1">
       
                         <p>
-                            Esbjerg E-sport er en E-sports forening stiftet i ** med det mål for øje at skabe en forening, hvor børn og unge kan samles omkring deres fælles interesse i trygge faste rammer. Esbjerg E-sport ønsker blandt andet at sætte fokus på et sundt læringsmiljø for individer, der elsker computerspil, sammenhold og e-sport.
+                            Esbjerg E-sport er en E-sports forening stiftet i ** med det mål for øje at skabe en forening, 
+                            hvor børn og unge kan samles omkring deres fælles interesse i trygge faste rammer. 
+                            Esbjerg E-sport ønsker blandt andet at sætte fokus på et sundt læringsmiljø for individer, der elsker computerspil, sammenhold og e-sport.
 
-                            Vores fysiske forening vokser hastigt, og vi er begejstret for den store opbakning, vi allerede får. Det er på grund af netop den opbakning, at vi nu er oppe på en del sideløbende hold i foreningen, hvor glade og kompetente instruktører møder op for at undervise i henholdsvis Counter-Strike: Global Offensive, Overwatch, Fortnite og FIFA. Vores bestyrelse, instruktører og administration består af ildsjæle og personer med erfaring fra e-sportens verden, som ønsker at bidrage til en stærk e-sport kultur i Esbjerg kommune.
+                            Vores fysiske forening vokser hastigt, og vi er begejstret for den store opbakning, 
+                            vi allerede får. Det er på grund af netop den opbakning, at vi nu er oppe på en del sideløbende hold i foreningen, 
+                            hvor glade og kompetente instruktører møder op for at undervise i henholdsvis Counter-Strike: Global Offensive, Overwatch, Fortnite og FIFA. Vores bestyrelse, instruktører og administration består af ildsjæle og personer med erfaring fra e-sportens verden, 
+                            som ønsker at bidrage til en stærk e-sport kultur i Esbjerg kommune.
                             
-                            Vi udvælger vores personale af trænere meget omhyggeligt, så vi kun finder de beste. Det er selvfølgelig til formål for at skabe de bedste og trygge rammer for vores kommende medlemmer. Esbjerg E-sport er herudover også medlem af DGI. På denne måde sikrer vi en sund omgangskreds og vi sørger for at Jeres børn er i trygge hænder hos Esbjerg E-sport.
+                            Vi udvælger vores personale af trænere meget omhyggeligt, 
+                            så vi kun finder de beste. Det er selvfølgelig til formål for at skabe de bedste og trygge rammer for vores kommende medlemmer. 
+                            Esbjerg E-sport er herudover også medlem af DGI. 
                         </p>
       
                         <img src="https://i.imgur.com/La8Ddhl.jpg"/>
@@ -203,7 +167,9 @@
                           <div  class="page-grid-1">
         
                           <p>
-                              Vi vil sammen med spillere og undervisere skabe et fedt miljø for individer, der elsker computerspil. E-sport er mere end blot computerspil og usunde madvaner, det ønsker vi at give den almene borger bedre kendskab til.
+                              Vi vil sammen med spillere og undervisere skabe et fedt miljø for individer, der elsker computerspil. 
+                              E-sport er mere end blot computerspil og usunde madvaner, 
+                              det ønsker vi at give den almene borger bedre kendskab til.
 
                               Vores vision er at imødekomme standarden for talentudvikling i Danmark og udvikle talenter samt hjælpe spillere med at opnå deres personlige mål.
                           </p>
@@ -529,10 +495,16 @@
           </div>
     </body>
 
-    <script src="./js/scroll.js">
-    </script>
+  <script src="./framework/vue.js">
+  </script>
 
-    <script src="./framework/vue.js">
-    </script>
+  <script src="./js/scroll.js">
+  </script>
 
+  <script src="./js/navigation.js">
+  </script>
+
+  <script>
+   setActive( 'about' );
+   </script>
 </html>

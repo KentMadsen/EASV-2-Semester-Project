@@ -58,109 +58,65 @@
           <header class="header-placeholder">
           </header>
 
-          <header class="header-desktop">
-              <nav>
-                  <ul>
-                      <li>
-                          <a href="./index.html"
-                             hreflang="en"
-                             title="">
-                              Forside
+          <header class="header-desktop" 
+                    id="menu-navigation">
+                <nav>
+                    <ul>
+                      <template v-for="item in navigationHeaderFirst">
+                        <li class="header-menu-button highlight" 
+                            v-if="item.active">
+
+                          <a v-bind:href="item.url"
+                             v-bind:hreflang="item.language">
+                            {{ item.name }}
                           </a>
-                      </li>
-                      
-                      <li>
-                          <a href="./discord.html"
-                             hreflang="en"
-                             title="">
-                              Discord
-                          </a>
-                      </li>
+                        </li>
 
-                      <li>
-                          <a href="./nyheder.html"
-                             hreflang="en"
-                             title="">
-                              Nyheder
-                          </a>
-                      </li>
+                        <li class="header-menu-button" v-else>
+                            <a v-bind:href="item.url"
+                               v-bind:hreflang="item.language">
+                              {{ item.name }}
+                            </a>
+                          </li>
+                      </template>
 
-                      <li>
-                          <a href="./spil.html"
-                             hreflang="en"
-                             title="">
-                              Spil
-                          </a>
-                      </li>
+                    </ul>
 
-                      <li>
-                          <a href="./hold.html"
-                             hreflang="en"
-                             title="">
-                              Hold
-                          </a>
-                      </li>
+                    <div>
+                      <div class="header-logo-container">
+                        <a href="#"
+                           hreflang="en">
 
-                  </ul>
+                          <!-- Icon -->
+                          <div id="header-logo-desktop-area"
+                               class="header-logo">
 
-                  <div>
-                    <div class="header-logo-container">
-                      <a href="#"
-                         hreflang="en">
-
-                        <!-- Icon -->
-                        <div id="header-logo-desktop-area"
-                             class="header-logo">
-
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <ul>
-                    <li>
-                      <a href="./about.html"
-                         hreflang="en"
-                         title="">
-                          Om os
-                      </a>
-                    </li>
-
-                    <li>
-                        <a href="./forældre.html"
-                           hreflang="en"
-                           title="">
-                            Forældre
+                          </div>
                         </a>
-                    </li>
+                      </div>
+                    </div>
 
-                      <li>
-                          <a href="./kalendar.html"
-                             hreflang="en"
-                             title="">
-                              Kalendar
-                          </a>
-                      </li>
+                    <ul>
+                        <template v-for="item in navigationHeaderSecond">
+                          <li class="header-menu-button highlight" 
+                              v-if="item.active">
+                              
+                            <a v-bind:href="item.url"
+                              v-bind:hreflang="item.language">
+                                {{ item.name }}
+                            </a>
+                          </li>
 
-                      <li>
-                          <a href="./kontakt.html"
-                             hreflang="en"
-                             title="">
-                              Kontakt
-                          </a>
-                      </li>
-
-                      <!-- Medlemskab ? -->
-                      <li>
-                          <a href="https://esport-data.designermadsen.com/wp-login.php"
-                             hreflang="en"
-                             title="">
-                              Login
-                          </a>
-                      </li>
-                  </ul>
-              </nav>
-          </header>
+                          <li class="header-menu-button" v-else>
+                            <a v-bind:href="item.url"
+                              v-bind:hreflang="item.language">
+                              {{ item.name }}
+                            </a>
+                          </li>
+                        </template>
+                    </ul>
+                </nav>
+            </header>
 
           <main>
               <div class="page-cover">
@@ -533,10 +489,16 @@
           </div>
     </body>
 
-    <script src="./js/scroll.js">
-    </script>
+  <script src="./framework/vue.js">
+  </script>
 
-    <script src="./framework/vue.js">
-    </script>
+  <script src="./js/scroll.js">
+  </script>
 
+  <script src="./js/navigation.js">
+  </script>
+
+  <script>
+   setActive( 'forældre' );
+   </script>
 </html>
