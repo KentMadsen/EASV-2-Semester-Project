@@ -7,35 +7,35 @@ var menu = new Vue(
           navigationHeaderFirst: 
           [
               {
-                  url: './index.html',
+                  url: './index.php',
                   name: 'home',
                   language: 'en',
                   active:false
               },
 
               {
-                url: './discord.html',
+                url: './discord.php',
                 name: 'discord',
                 language: 'en',
                 active:false
               },
 
               {
-                url: './nyheder.html',
+                url: './nyheder.php',
                 name: 'nyheder',
                 language: 'en',
                 active:false
               },
 
               {
-                url: './spil.html',
+                url: './spil.php',
                 name: 'spil',
                 language: 'en',
                 active:false
               },
 
               {
-                url: './hold.html',
+                url: './hold.php',
                 name: 'hold',
                 language: 'en',
                 active:false
@@ -45,28 +45,28 @@ var menu = new Vue(
           navigationHeaderSecond:
           [
             {
-                url: './about.html',
+                url: './about.php',
                 name: 'about',
                 language: 'en',
                 active:false
             },
 
             {
-              url: './forældre.html',
+              url: './forældre.php',
               name: 'forældre',
               language: 'en',
               active:false
             },
 
             {
-              url: './kalendar.html',
+              url: './kalendar.php',
               name: 'kalendar',
               language: 'en',
               active:false
             },
 
             {
-              url: './kontakt.html',
+              url: './kontakt.php',
               name: 'kontakt',
               language: 'en',
               active:false
