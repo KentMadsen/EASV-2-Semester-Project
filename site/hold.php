@@ -128,6 +128,25 @@
                   </div>
                 </div>
 
+                <div class="page-decoration">
+                  <div class="page-grid-1">
+                    <div class="page-space">
+
+                    </div>
+                    
+                    <div class="page-decoration-section-shift">
+                      <div class="decoration-shift">
+
+                      </div>
+                    </div>
+                    
+                    <div class="page-space">
+
+                    </div>
+                  </div> 
+                  
+                </div>
+
                 <section>
                     <h3 class="central-text">Counter-Strike: Global Offense</h3>
                     <p class="central-text">Herunder ser du vores 5 holdspillere for CS:GO</p>
