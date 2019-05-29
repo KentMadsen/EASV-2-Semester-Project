@@ -58,48 +58,18 @@
           <header class="header-placeholder">
           </header>
 
-            <header class="header-desktop">
+            <header class="header-desktop" 
+                    id="menu-navigation">
                 <nav>
                     <ul>
+                      <template v-for="item in navigationHeaderFirst">
                         <li class="header-menu-button">
-                            <a href="./index.html"
-                               hreflang="en"
-                               title="">
-                                Forside
-                            </a>
+                          <a v-bind:href="item.url"
+                             v-bind:hreflang="item.language">
+                            {{ item.name }}
+                          </a>
                         </li>
-
-                        <li class="header-menu-button">
-                            <a href="./discord.html"
-                               hreflang="en"
-                               title="">
-                                Discord
-                            </a>
-                        </li>
-
-                        <li class="header-menu-button">
-                            <a href="./nyheder.html"
-                               hreflang="en"
-                               title="">
-                                Nyheder
-                            </a>
-                        </li>
-
-                        <li class="header-menu-button">
-                            <a href="./spil.html"
-                               hreflang="en"
-                               title="">
-                                Spil
-                            </a>
-                        </li>
-
-                        <li class="header-menu-button">
-                            <a href="./hold.html"
-                               hreflang="en"
-                               title="">
-                                Hold
-                            </a>
-                        </li>
+                      </template>
 
                     </ul>
 
@@ -118,46 +88,14 @@
                     </div>
 
                     <ul>
-                      <li class="header-menu-button">
-                        <a href="./about.html"
-                           hreflang="en"
-                           title="">
-                            Om os
-                        </a>
-                      </li>
-
-                      <li class="header-menu-button">
-                          <a href="./forældre.html"
-                             hreflang="en"
-                             title="">
-                              Forældre
-                          </a>
-                      </li>
-
-                        <li class="header-menu-button">
-                            <a href="./kalendar.html"
-                               hreflang="en"
-                               title="">
-                                Kalendar
-                            </a>
-                        </li>
-
-                        <li class="header-menu-button">
-                            <a href="./kontakt.html"
-                               hreflang="en"
-                               title="">
-                                Kontakt
-                            </a>
-                        </li>
-
-                        <!-- Medlemskab ? -->
-                        <li class="header-menu-button">
-                            <a href="https://esport-data.designermadsen.com/wp-login.php"
-                               hreflang="en"
-                               title="">
-                                Login
-                            </a>
-                        </li>
+                        <template v-for="item in navigationHeaderSecond">
+                            <li class="header-menu-button">
+                              <a v-bind:href="item.url"
+                                 v-bind:hreflang="item.language">
+                                {{ item.name }}
+                              </a>
+                            </li>
+                          </template>
                     </ul>
                 </nav>
             </header>
@@ -624,13 +562,16 @@
           </div>
     </body>
 
+    <script src="./framework/vue.js">
+    </script>
+
     <script src="./js/active.js">
     </script>
 
     <script src="./js/scroll.js">
     </script>
 
-    <script src="./framework/vue.js">
+    <script src="./js/navigation.js">
     </script>
 
 </html>
