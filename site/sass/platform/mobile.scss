@@ -1,6 +1,87 @@
 @media only screen and (max-width: 600px) 
 {
-    body {
-      background-color: lightblue;
+    body 
+    {
+      
+    }
+
+    .header-placeholder
+    {
+      display: none;
+    }
+
+    .header-desktop
+    {
+      display: block;
+      position: relative;
+    }
+
+    /** 
+    
+    */
+    header 
+    {
+      
+    }
+
+    header nav
+    {
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+      grid-gap: 18px;
+    }
+
+    header nav ul
+    {
+
+    }
+
+    header nav ul
+    {
+      flex-direction: column;
+    }
+
+    header nav ul li 
+    {
+      width: 100%;
+      text-align: center;
+    }
+
+    header nav ul:first-child
+    {
+      justify-content: center;
+    }
+
+    header nav ul:last-child
+    {
+      
+      justify-content: center;
+      
+    }
+
+    header nav div 
+    {
+      display: none;
+    }
+
+
+    .header-desktop
+    {
+      
+    }
+
+    /** 
+    
+    */
+    main 
+    {
+      
+    }
+
+    /** 
+    */
+    footer 
+    {
+      
     }
 }
