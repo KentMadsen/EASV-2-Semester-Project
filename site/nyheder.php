@@ -29,25 +29,9 @@
             Esport Esbjerg - Nyheder
         </title>
 
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap"
-              rel="stylesheet">
-
-        <link rel="stylesheet"
-              href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-              integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-              crossorigin="anonymous">
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136109379-2">
-        </script>
-
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-136109379-2');
-        </script>
+        <?php 
+          include_once './content/content.html';
+        ?>
 
     </head>
 
@@ -174,15 +158,10 @@
             
           </div>
     </body>
-    
-  <script src="./framework/vue.js">
-  </script>
 
-  <script src="./js/scroll.js">
-  </script>
-
-  <script src="./js/navigation.js">
-  </script>
+    <?php 
+include_once './content/scripts.html';
+?>
 
   <script>
     setActive( 'nyheder' );
