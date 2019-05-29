@@ -44,7 +44,11 @@
     header nav ul li 
     {
       width: 100%;
+      
       padding: 0px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+
       text-align: center;
     }
 
@@ -83,6 +87,28 @@
     */
     footer 
     {
-      
+
+    }
+
+    .sponsor
+    {
+      flex-direction: column;
+    }
+
+    .sponsor .container
+    {
+      justify-content: center;
+
+    }
+
+    .containers-3-elements
+    {
+      grid-template-rows: auto auto auto;
+      grid-template-columns: auto;
+    }
+
+    .misc ul 
+    {
+      flex-direction: column;
     }
 }
