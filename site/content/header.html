@@ -1,0 +1,62 @@
+<header class="header-placeholder">
+    </header>
+
+    <header class="header-desktop" 
+              id="menu-navigation">
+          <nav>
+              <ul>
+                <template v-for="item in navigationHeaderFirst">
+                  <li class="header-menu-button highlight" 
+                      v-if="item.active">
+
+                    <a v-bind:href="item.url"
+                       v-bind:hreflang="item.language">
+                      {{ item.name }}
+                    </a>
+                  </li>
+
+                  <li class="header-menu-button" v-else>
+                      <a v-bind:href="item.url"
+                         v-bind:hreflang="item.language">
+                        {{ item.name }}
+                      </a>
+                    </li>
+                </template>
+
+              </ul>
+
+              <div>
+                <div class="header-logo-container">
+                  <a href="#"
+                     hreflang="en">
+
+                    <!-- Icon -->
+                    <div id="header-logo-desktop-area"
+                         class="header-logo">
+
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <ul>
+                  <template v-for="item in navigationHeaderSecond">
+                    <li class="header-menu-button highlight" 
+                        v-if="item.active">
+                        
+                      <a v-bind:href="item.url"
+                        v-bind:hreflang="item.language">
+                          {{ item.name }}
+                      </a>
+                    </li>
+
+                    <li class="header-menu-button" v-else>
+                      <a v-bind:href="item.url"
+                        v-bind:hreflang="item.language">
+                        {{ item.name }}
+                      </a>
+                    </li>
+                  </template>
+              </ul>
+          </nav>
+      </header>
