@@ -10,7 +10,7 @@ var menu = new Vue(
                   url: './index.html',
                   name: 'home',
                   language: 'en',
-                  active:true
+                  active:false
               },
 
               {
@@ -91,8 +91,49 @@ var menu = new Vue(
   
       methods:
       {
-  
+        resetTitle: function()
+        {
+
+        }
       }
     }
   );
   
+
+//
+function setActive( activePageName )
+{
+  var i = 0; 
+  var element = null;
+
+  
+
+  for( i = 0; 
+       i < menu.navigationHeaderFirst.length; 
+       i ++ )
+{
+ element = menu.navigationHeaderFirst[i];
+
+ if(element.name === activePageName)
+ {
+   element.active = true;
+   return;
+ }
+ 
+}
+
+for( i = 0; 
+     i < menu.navigationHeaderSecond.length; 
+     i ++ )
+{
+ element = menu.navigationHeaderSecond[i];
+ 
+ if(element.name === activePageName)
+ {
+   element.active = true;
+   return;
+ }
+ 
+}
+  
+}
