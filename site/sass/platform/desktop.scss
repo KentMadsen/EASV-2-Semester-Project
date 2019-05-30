@@ -37,6 +37,16 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
+
+    .page-grid-2
+    {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .page-space
+    {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1256px) 
