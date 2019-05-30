@@ -53,17 +53,17 @@ var menu = new Vue(
           navigationHeaderSecond:
           [
             {
-                url: './about.php',
-                name: 'about',
-                language: 'en',
-                active:false
-            },
-
-            {
               url: './forældre.php',
               name: 'forældre',
               language: 'en',
               active:false
+            },
+
+            {
+                url: './about.php',
+                name: 'om os',
+                language: 'en',
+                active:false
             },
 
             {
