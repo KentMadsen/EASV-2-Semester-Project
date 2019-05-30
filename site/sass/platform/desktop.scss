@@ -27,7 +27,13 @@
 
     .header-desktop nav ul
     {
-        justify-content: center;
+        justify-content: space-evenly;
+
+    }
+
+    .sponsors .container
+    {
+        width: 25%;
 
     }
 }
