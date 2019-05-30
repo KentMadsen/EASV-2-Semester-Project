@@ -43,7 +43,15 @@
           include_once './content/header.html';
           ?>
 
-          <main>
+          <main id="galleri">
+              <div class="site-page-gallery">
+                <ul> 
+                    <template v-for="image in listedGalleryItems"> 
+
+
+                    </template>
+                </ul>
+              </div>
 
 
           </main>
