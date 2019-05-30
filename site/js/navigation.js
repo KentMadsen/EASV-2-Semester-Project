@@ -14,6 +14,20 @@ var menu = new Vue(
               },
 
               {
+                url: './spil.php',
+                name: 'spil',
+                language: 'en',
+                active:false
+              },
+
+              {
+                url: './hold.php',
+                name: 'hold',
+                language: 'en',
+                active:false
+              },
+
+              {
                 url: './discord.php',
                 name: 'discord',
                 language: 'en',
@@ -28,18 +42,12 @@ var menu = new Vue(
               },
 
               {
-                url: './spil.php',
-                name: 'spil',
-                language: 'en',
-                active:false
-              },
-
-              {
-                url: './hold.php',
-                name: 'hold',
+                url: './kalendar.php',
+                name: 'kalendar',
                 language: 'en',
                 active:false
               }
+
           ],
 
           navigationHeaderSecond:
@@ -54,13 +62,6 @@ var menu = new Vue(
             {
               url: './forældre.php',
               name: 'forældre',
-              language: 'en',
-              active:false
-            },
-
-            {
-              url: './kalendar.php',
-              name: 'kalendar',
               language: 'en',
               active:false
             },
