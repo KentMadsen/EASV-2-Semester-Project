@@ -91,9 +91,15 @@
                   <div class="site-news-feed">
                       <img src="https://i.imgur.com/bQfV6c3.jpg" />
                       <div class="site-news-feed-content">
-                        <p>NYE HOLDTRØJER!</p>
-                        <p>Læs alt om det her </p>
-                        <p>https://www.facebook.com/events/620785191734972/</p>
+                        <p>
+                          NYE HOLDTRØJER!
+                        </p>
+                        <p>
+                          Læs alt om det her 
+                        </p>
+                        <p>
+                          https://www.facebook.com/events/620785191734972/
+                        </p>
                       </div>
                       
                   </div>
@@ -101,9 +107,15 @@
                   <div class="site-news-feed">
                     <img src="https://i.imgur.com/bQfV6c3.jpg" />
                     <div class="site-news-feed-content">
-                      <p>NYE HOLDTRØJER!</p>
-                      <p>Læs alt om det her </p>
-                      <p>https://www.facebook.com/events/620785191734972/</p>
+                      <p>
+                        NYE HOLDTRØJER!
+                      </p>
+                      <p>
+                        Læs alt om det her 
+                      </p>
+                      <p>
+                        https://www.facebook.com/events/620785191734972/
+                      </p>
                     </div>
                     
                   </div>
@@ -127,9 +139,14 @@
                     <div class="site-news-feed">
                         <img src="https://i.imgur.com/Cu653I5.jpg" />
                         <div class="site-news-feed-content">
-                          <p>NYE HOLDTRØJER!</p>
-                          <p>Læs alt om det her </p>
-                          <p>https://www.facebook.com/events/620785191734972/</p>
+                          <p>
+                            NYE HOLDTRØJER!
+                          </p>
+                          <p>
+                            Læs alt om det her </p>
+                          <p>
+                            https://www.facebook.com/events/620785191734972/
+                          </p>
                         </div>
                         
                     </div>
@@ -137,9 +154,15 @@
                     <div class="site-news-feed">
                       <img src="https://i.imgur.com/Cu653I5.jpg" />
                       <div class="site-news-feed-content">
-                        <p>NYE HOLDTRØJER!</p>
-                        <p>Læs alt om det her </p>
-                        <p>https://www.facebook.com/events/620785191734972/</p>
+                        <p>
+                          NYE HOLDTRØJER!
+                        </p>
+                        <p>
+                          Læs alt om det her 
+                       </p>
+                        <p>
+                          https://www.facebook.com/events/620785191734972/
+                        </p>
                       </div>
                       
                     </div>

@@ -294,6 +294,6 @@ include_once './content/scripts.html';
 ?>
 
   <script>
-      setActive( 'home' );
+      setActive( 'hjem' );
   </script>
 </html>
