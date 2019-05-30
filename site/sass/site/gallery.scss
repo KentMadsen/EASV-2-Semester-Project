@@ -1,4 +1,21 @@
 .site-page-gallery
 {
+
+}
+
+.site-page-gallery ul
+{
+    padding: 0px;
+    margin: 0px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 32px;
+}
+
+
+.site-page-gallery ul li img
+{
     
+
 }
