@@ -183,8 +183,8 @@
 
     #front-canvas-space .front-canvas-container 
     {
-      position: relative;
-      width: 100%;
+      position: relative !important;
+      width: 100% !important;
 
     }
 }
