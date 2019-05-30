@@ -67,6 +67,13 @@ var menu = new Vue(
             },
 
             {
+              url: './gallery.php',
+              name: 'galleri',
+              language: 'en',
+              active:false
+          },
+
+            {
               url: './kontakt.php',
               name: 'kontakt',
               language: 'en',
