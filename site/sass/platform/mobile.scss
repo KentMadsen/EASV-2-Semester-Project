@@ -158,6 +158,21 @@
       grid-template-rows: auto auto;
     }
 
+    .site-team-grid
+    {
+      width: 100%;
+      
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto auto auto;
+
+      grid-gap: 32px;
+    }
+
+    .team-container
+    {
+
+    }
+
     .page-boundary-grid
     {
       width: 100%;
