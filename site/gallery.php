@@ -58,6 +58,11 @@
 <?php 
 include_once './content/scripts.html';
 ?>
+
+  <script src="./js/galleri.js">
+  
+  </script>
+  
   <script>
    setActive( 'galleri' );
    </script>
