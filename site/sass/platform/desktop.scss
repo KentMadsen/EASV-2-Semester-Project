@@ -32,17 +32,25 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-
-    .page-boundary-grid
-    {
-        width: 100%;
-    }
 }
 
 @media only screen and (max-width: 1256px) 
 {
 
 }
+
+
+@media only screen and (max-width:1220px)
+{
+    .site-team-grid
+    {
+        width: 100%;
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
 
 
 
