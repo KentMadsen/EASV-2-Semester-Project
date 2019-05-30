@@ -294,7 +294,7 @@
                       Herunder ser du vores 3 spillere for Fortnite Duo og Solo
                     </p>
                     <div class="site-team-grid">
-                      <div class="team-container"> 
+                      <div class="team-space team-container"> 
                        
                       </div>
                       
@@ -358,7 +358,7 @@
                               </div>
                             </div>
 
-                            <div class="team-container"> 
+                            <div class="team-space team-container"> 
                              
                             </div>
                     </div>
