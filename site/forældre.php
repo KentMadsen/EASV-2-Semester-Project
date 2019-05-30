@@ -86,7 +86,7 @@
                       League (ESL), Major League Gaming (MLG), Electronic Sports World Cup (ESWC), QuakeCon og BlizzCon. For at 
                       konkurrere blandt eliten skal spillerne yde deres bedste, hvilket kræver masser af dedikation og træning. Præcis 
                       som i traditionel sport – har man først nået toppen, er den sværeste udfordring at forsætte med at være en af de 
-                      bedste.
+                      bedste. </br> </br>
                       
                       E-sporten er vokset hastigt de sidste år, og nu hvor turneringerne har penge præmier i omegnen af flere 
                       millioner kroner, er konkurrencen blevet endnu hårdere. Der findes rigtig mange turneringer, som forgår offline. 
@@ -128,9 +128,9 @@
     
                       <p>
                           Hvorfor skal du lade dit barn bruge tid på E-sport i vores forening? Fordi det ganske enkelt er det, de synes er fedt. E-sport er i nutidens Danmark blevet et element i undervisningen på flere folkeskoler, gymnasier og specielt efterskoler, hvor det er muligt at dyrke sin passion for gaming og samtidig gennemføre sin uddannelse.
-
+                          </br> </br>
                           Hos Esbjerg E-sport ønsker vi udover at tilbyde kompetent undervisning i flere populærespiltitler også at have  fokus på sundhed og fysisk aktivitet. Mange forældre kender ikke til E-sport generelt og synes tit, at deres barn bruger for meget tid foran computerskærmen. Problemet med børns computerspil er dog ikke så meget antallet af timer foran skærmen, det er derimod forældrenes bekymring over noget, de ikke forstår og derfor bliver usikre. Det er faktisk bevist at computerspil stimulerer indlæring og sikrer kompetencer som strategisk refleksion, kreativitet, samarbejde og innovation.
-                          
+                          </br> </br>
                           Herudover har vi også fokus på det sociale aspekt i at spille på et hold og være en del af en forening med fordele samt de forpligtigelser, der følger med.
                       </p>
     
@@ -168,9 +168,9 @@
     
                       <p>
                           Mange af de unge, der tiltrækkes af esport i foreninger og klubber, har typisk ikke været en del af foreningsmiljøet tidligere. Vi ved, at flere af de unge spillere har haft dårlige oplevelser med bevægelse og idræt. Derfor er det vigtigt, at esportsmiljøet bidrager til at engagere de unge spillere til fysisk bevægelse og gode og sunde kost- og søvnvaner på en god måde. Endelig opfordres klubber og foreninger til at skabe faciliteter, så spillerne kan mødes fysisk som alternativ til blot at spille sammen online hjemmefra, da det personlige møde skaber sunde relationer for den enkelte spiller.
-
+                          </br> </br>
                           Og det har vi valgt at have fokus på hos Esbjerg E-sport. Det er altså en vigtighed for os at vores medlemmer bliver stimuleret både i selve E-sporten, men også fysisk ved siden af. Det at være fysisk aktiv med andre medlemmer skaber også et markant bedre fællesskab. Så man kan sige vi skaber fællesskab både indenfor E-sportens rammer såvel som indenfor de fysiske rammer her hos E-sport Esbjerg. 
-                          
+                          </br> </br>
                           Herunder kan man se billeder fra vores jiu jitsu time med vores medlemmer og jiu jitsu trænere.  
                           
                           
@@ -209,14 +209,16 @@
     
                       <p>
                           Vi accepterer ingen form for mobning i foreningen. Vi har NUL tolerance, når det gælder mobning, og de implicerede vil blive bortvist fra deres hold, hvis instruktøren bliver opmærksom på, at der er et problem.
+                          </br> </br>
 
                           Det er en stor vigtighed for os at vores unge medlemmer er trygge i deres omgivelser hos E-sport Esbjerg. Vores trænere er derfor opmærksom på at skabe det mest trygge og mobningsfri miljø. 
-                          
-                          Vi hjælper hinanden
-                          Vi gør hinanden bedre
-                          Vi løfter hinanden i enhver sammenhæng
-                          Ingen mobning
-                          Fællesskab og kammeratligt samvær
+                          </br> </br>
+
+                          Vi hjælper hinanden </br>
+                          Vi gør hinanden bedre </br>
+                          Vi løfter hinanden i enhver sammenhæng </br>
+                          Ingen mobning </br>
+                          Fællesskab og kammeratligt samvær </br>
                       </p>
     
                       <img src="https://i.imgur.com/xxQ9OHx.png"/>
