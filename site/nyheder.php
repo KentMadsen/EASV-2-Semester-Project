@@ -84,7 +84,7 @@
                 </p>
 
                 <div class="page-grid-2">
-                  <div class="page-space">
+                  <div class="site-news-page-space">
 
                   </div>
 
@@ -108,7 +108,7 @@
                     
                   </div>
 
-                  <div class="page-space">
+                  <div class="site-news-page-space">
 
                   </div>
                 </div>
@@ -120,7 +120,7 @@
                   </h2>
   
                   <div class="page-grid-2">
-                    <div class="page-space">
+                    <div class="site-news-page-space">
   
                     </div>
   
@@ -144,7 +144,7 @@
                       
                     </div>
   
-                    <div class="page-space">
+                    <div class="site-news-page-space">
   
                     </div>
                   </div>
