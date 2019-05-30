@@ -38,7 +38,7 @@
     {
       grid-template-columns: auto !important;
       grid-template-rows: auto auto !important;
-      
+
       grid-gap: 18px;
     }
 
@@ -78,6 +78,14 @@
     header nav div 
     {
       display: none;
+    }
+
+    .site-team-grid
+    {
+        width: 100%;
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
 
 
