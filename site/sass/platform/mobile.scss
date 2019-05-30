@@ -124,9 +124,22 @@
       grid-template-rows: auto auto;
     }
 
+    .misc 
+    {
+      margin-top: 0px;
+      padding-bottom: 0px;
+    }
+
     .misc ul 
     {
       flex-direction: column;
+      justify-content: center;
+    }
+
+    .misc ul li 
+    {
+      margin-left: 0px;
+      margin-right: 0px;
     }
 
     .page-grid-container-half
