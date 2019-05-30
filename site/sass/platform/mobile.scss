@@ -36,8 +36,9 @@
 
     header nav
     {
-      grid-template-columns: auto;
-      grid-template-rows: auto auto;
+      grid-template-columns: auto !important;
+      grid-template-rows: auto auto !important;
+
       grid-gap: 18px;
     }
 
@@ -77,6 +78,20 @@
     header nav div 
     {
       display: none;
+    }
+
+    .site-team-grid
+    {
+        width: 100%;
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .page-grid-2
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
 
@@ -144,6 +159,7 @@
     {
       margin-left: 0px;
       margin-right: 0px;
+
       text-align: center;
     }
 

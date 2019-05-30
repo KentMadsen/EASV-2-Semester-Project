@@ -1,4 +1,108 @@
-@media only screen and (max-width: px) 
+@media only screen and (max-width:1820px)
+{
+    .site-team-grid
+    {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1620px)
+{
+    .site-team-grid
+    {
+        width: 100%;
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .team-space
+    {
+        display: none;
+    }
+
+    .page-boundary-grid
+    {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:1420px)
+{
+    .site-team-grid
+    {
+        width: 100%;
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .page-grid-2
+    {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .site-news-page-space
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1256px) 
 {
 
+}
+
+
+@media only screen and (max-width:1220px)
+{
+    .site-team-grid
+    {
+        width: 100%;
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1080px) 
+{
+    .boundary
+    {
+        width: 100%;
+
+    }
+
+    .header-desktop nav div
+    {
+        display: none;
+        
+    }
+
+    .header-desktop nav
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 16px;
+    }
+
+    .header-desktop nav ul
+    {
+        justify-content: space-evenly;
+
+    }
+
+    .sponsors
+    {
+        
+    }
+
+    .sponsors .container
+    {
+        
+
+    }
 }

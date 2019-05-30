@@ -245,6 +245,6 @@ include_once './content/scripts.html';
 ?>
 
   <script>
-   setActive( 'about' );
+   setActive( 'om os' );
    </script>
 </html>

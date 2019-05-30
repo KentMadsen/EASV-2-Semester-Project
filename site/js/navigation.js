@@ -8,9 +8,23 @@ var menu = new Vue(
           [
               {
                   url: './index.php',
-                  name: 'home',
+                  name: 'hjem',
                   language: 'en',
                   active:false
+              },
+
+              {
+                url: './spil.php',
+                name: 'spil',
+                language: 'en',
+                active:false
+              },
+
+              {
+                url: './hold.php',
+                name: 'hold',
+                language: 'en',
+                active:false
               },
 
               {
@@ -28,29 +42,16 @@ var menu = new Vue(
               },
 
               {
-                url: './spil.php',
-                name: 'spil',
-                language: 'en',
-                active:false
-              },
-
-              {
-                url: './hold.php',
-                name: 'hold',
+                url: './kalendar.php',
+                name: 'kalendar',
                 language: 'en',
                 active:false
               }
+
           ],
 
           navigationHeaderSecond:
           [
-            {
-                url: './about.php',
-                name: 'about',
-                language: 'en',
-                active:false
-            },
-
             {
               url: './forældre.php',
               name: 'forældre',
@@ -59,10 +60,10 @@ var menu = new Vue(
             },
 
             {
-              url: './kalendar.php',
-              name: 'kalendar',
-              language: 'en',
-              active:false
+                url: './about.php',
+                name: 'om os',
+                language: 'en',
+                active:false
             },
 
             {
@@ -91,10 +92,7 @@ var menu = new Vue(
   
       methods:
       {
-        resetTitle: function()
-        {
-
-        }
+        
       }
     }
   );
