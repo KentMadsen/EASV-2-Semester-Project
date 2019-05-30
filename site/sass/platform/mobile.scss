@@ -128,4 +128,15 @@
     {
       flex-direction: column;
     }
+
+    .page-grid-container-half
+    {
+      grid-column: span 1;
+    }
+
+    .page-grid-1
+    {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+    }
 }
