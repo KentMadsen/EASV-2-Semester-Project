@@ -74,5 +74,29 @@ h2
 @import './site/news.scss';
 @import './site/parents.scss';
 @import './site/calendar.scss';
+@import './site/team.scss';
+
+.central-text
+{
+    font-family: 'open sans';
+    color:white;
+    text-align: center;
+}
+
+.left-side-text
+{
+  
+  font-family: 'open sans';
+  color:white;
+  text-align: left;
+}
+
+.paragraph
+{
+  font-family: 'open sans';
+  color: white;
+}
 
 /* Custom Area */
+@import './platform/desktop.scss';
+@import './platform/mobile.scss';

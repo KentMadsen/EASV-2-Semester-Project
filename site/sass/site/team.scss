@@ -1,0 +1,55 @@
+.site-team-grid
+{
+    width: 1820px;
+
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.team-container-image
+{
+    width: 100%;
+    height: 256px;
+    
+
+    background-color: white;
+}
+
+.team-container-image img 
+{
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+.team-container-description
+{
+    background-color: #052b43;
+}
+
+.team-container-description p
+{
+    color:white;
+
+    font-family: 'roboto';
+
+    margin: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.team-container-description p:first-child
+{
+    padding-top: 16px;
+}
+
+.team-container-description p:last-child
+{
+    padding-bottom: 16px;
+}
