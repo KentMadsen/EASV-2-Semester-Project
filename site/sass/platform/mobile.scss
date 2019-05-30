@@ -174,14 +174,14 @@
       grid-template-rows: auto auto;
     }
 
-    .front-canvas-space
+    #front-canvas-space
     {
       display: grid;
       grid-gap: 0px;
       grid-template-rows: auto auto;
     }
 
-    .front-canvas-container 
+    #front-canvas-space .front-canvas-container 
     {
       position: relative;
       width: 100%;
