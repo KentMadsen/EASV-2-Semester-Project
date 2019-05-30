@@ -157,4 +157,20 @@
     {
       width: 100%;
     }
+
+    .footer-container-links li
+    {
+      text-align: center;
+    }
+
+    .footer-follow
+    {
+      justify-content: space-around;
+    }
+
+    .split-container
+    {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+    }
 }
