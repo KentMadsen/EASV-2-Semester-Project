@@ -183,6 +183,25 @@
 
                   </div>
 
+                  <div class="page-decoration">
+                  <div class="page-grid-1">
+                    <div class="page-space">
+
+                    </div>
+                    
+                    <div class="page-decoration-section-shift">
+                      <div class="decoration-shift">
+
+                      </div>
+                    </div>
+                    
+                    <div class="page-space">
+
+                    </div>
+                  </div> 
+                  
+                </div>
+
                   <!-- About us -->
                   <div class="boundary page-element page-split index-about-us">
                       <h2>
@@ -194,6 +213,25 @@
                       </p>
 
                   </div>
+
+                  <div class="page-decoration">
+                  <div class="page-grid-1">
+                    <div class="page-space">
+
+                    </div>
+                    
+                    <div class="page-decoration-section-shift">
+                      <div class="decoration-shift">
+
+                      </div>
+                    </div>
+                    
+                    <div class="page-space">
+
+                    </div>
+                  </div> 
+                  
+                </div>
 
                   <!-- Nyheder -->
                   <div class="boundary page-element">
