@@ -8,7 +8,7 @@ var menu = new Vue(
           [
               {
                   url: './index.php',
-                  name: 'home',
+                  name: 'hjem',
                   language: 'en',
                   active:false
               },
@@ -92,10 +92,7 @@ var menu = new Vue(
   
       methods:
       {
-        resetTitle: function()
-        {
-
-        }
+        
       }
     }
   );
