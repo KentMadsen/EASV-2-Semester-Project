@@ -99,6 +99,38 @@
                   
                 </div>
 
+                  <!-- About us -->
+                  <div class="boundary page-element page-split index-about-us">
+                      <h2>
+                        Esport Esbjerg
+                      </h2>
+
+                      <p>
+                        eSport Esbjerg er en folkeoplysende forening, som har til formål at skabe et samvær for unge, såvel som gamle der har en interesse indenfor gaming. Her kan man finde folk med samme interesse inden for de forskellige spil og få sat ansigt på de personer man spiller med. Dette skaber en mulighed for at være sammen omkring spil, men samtidig komme ud og lære nye folk at kende.
+                      </p>
+
+                  </div>
+
+
+                <div class="page-decoration">
+                  <div class="page-grid-1">
+                    <div class="page-space">
+
+                    </div>
+                    
+                    <div class="page-decoration-section-shift">
+                      <div class="decoration-shift">
+
+                      </div>
+                    </div>
+                    
+                    <div class="page-space">
+
+                    </div>
+                  </div> 
+                  
+                </div>
+
                 <section>
                   <!-- Træning -->
                   <div id="train"
@@ -180,37 +212,6 @@
                       </div>
 
                     </div>
-
-                  </div>
-
-                  <div class="page-decoration">
-                  <div class="page-grid-1">
-                    <div class="page-space">
-
-                    </div>
-                    
-                    <div class="page-decoration-section-shift">
-                      <div class="decoration-shift">
-
-                      </div>
-                    </div>
-                    
-                    <div class="page-space">
-
-                    </div>
-                  </div> 
-                  
-                </div>
-
-                  <!-- About us -->
-                  <div class="boundary page-element page-split index-about-us">
-                      <h2>
-                        Esport Esbjerg
-                      </h2>
-
-                      <p>
-                        eSport Esbjerg er en folkeoplysende forening, som har til formål at skabe et samvær for unge, såvel som gamle der har en interesse indenfor gaming. Her kan man finde folk med samme interesse inden for de forskellige spil og få sat ansigt på de personer man spiller med. Dette skaber en mulighed for at være sammen omkring spil, men samtidig komme ud og lære nye folk at kende.
-                      </p>
 
                   </div>
 
