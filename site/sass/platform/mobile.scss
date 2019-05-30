@@ -36,8 +36,8 @@
 
     header nav
     {
-      grid-template-columns: auto;
-      grid-template-rows: auto auto;
+      grid-template-columns: auto !important;
+      grid-template-rows: auto auto !important;
       grid-gap: 18px;
     }
 
@@ -144,6 +144,7 @@
     {
       margin-left: 0px;
       margin-right: 0px;
+
       text-align: center;
     }
 
