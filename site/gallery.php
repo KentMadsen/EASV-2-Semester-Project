@@ -47,7 +47,9 @@
               <div class="site-page-gallery">
                 <ul> 
                     <template v-for="image in listedGalleryItems"> 
-                        <img v-bind:src="image.url"/>
+                        <li>
+                            <img v-bind:src="image.url"/>
+                        </li>
                     </template>
                 </ul>
               </div>
