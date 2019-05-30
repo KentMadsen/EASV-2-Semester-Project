@@ -80,7 +80,7 @@
                         Herinde kan du følge Esbjerg E-sports kalender og dermed planlægning. Det er vigtigt at følge godt med herinde da vi opdatere den løbende og det kan ske fra dag til dag
                     </p>
 
-                    <div class="center-object"> 
+                    <div class="object-calendar"> 
                       <iframe src="https://calendar.google.com/calendar/embed?src=2uis8m4ifjtj9kaa29d0b81a5c%40group.calendar.google.com&ctz=Europe%2FCopenhagen" style="border: 0" width="800" height="600" frameborder="0" scrolling="no">
                       </iframe>
                     </div>
