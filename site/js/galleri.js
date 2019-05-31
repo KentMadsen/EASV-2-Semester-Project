@@ -30,6 +30,16 @@ var galleri = new Vue(
                 name:'',
                 game:'cs:go',
                 url:'https://i.imgur.com/IxdE1Qb.png'
+            },
+            {
+                name:'',
+                game:'insurgency:sandstorm',
+                url:'https://i.imgur.com/DzTNqDl.jpg'
+            },
+            {
+                name:'',
+                game:'insurgency:sandstorm',
+                url:'https://i.imgur.com/qsE16fE.png'
             }
         ]
           
