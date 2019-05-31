@@ -46,7 +46,14 @@ var menu = new Vue(
                 name: 'kalendar',
                 language: 'en',
                 active:false
-              }
+              },
+              {
+                url: './gallery.php',
+                name: 'galleri',
+                language: 'en',
+                active:false
+            }  
+              
 
           ],
 
@@ -65,13 +72,6 @@ var menu = new Vue(
                 language: 'en',
                 active:false
             },
-
-            {
-              url: './gallery.php',
-              name: 'galleri',
-              language: 'en',
-              active:false
-          },
 
             {
               url: './kontakt.php',
