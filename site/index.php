@@ -63,7 +63,7 @@
                         </div>
 
                         <div class="front-canvas-container bottom">
-                          <img src="https://i.imgur.com/4E92KGx.png"/>
+                          <img src="https://i.imgur.com/Xm7dXLN.png"/>
 
                           <div class="front-canvas-container-info" hidden>
                             <div class="front-canvas-container-info-position">
