@@ -48,7 +48,9 @@
                 <ul> 
                     <template v-for="image in listedGalleryItems"> 
                         <li>
-                            <img v-bind:src="image.url"/>
+                            <a v-bind:href="image.url">
+                                <img v-bind:src="image.url"/>
+                            </a>
                         </li>
                     </template>
                 </ul>
