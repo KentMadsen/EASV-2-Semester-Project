@@ -10,7 +10,7 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 32px;
+    grid-gap: 18px;
 }
 
 .site-page-gallery ul li
@@ -18,10 +18,10 @@
     list-style: none;
 }
 
-.site-page-gallery ul li img
+.site-page-gallery ul li a img
 {
     width: 100%; 
-    height: 200px;
+    height: 300px;
     object-fit: cover; 
 
 }
