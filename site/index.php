@@ -51,7 +51,7 @@
                       <div id="front-canvas-space">
 
                         <div class="front-canvas-container top">
-                          <img src="https://i.imgur.com/DAmiLDk.png"/>
+                          <img src="https://i.imgur.com/36DJphB.jpg"/>
 
                           <div class="front-canvas-container-info" hidden>
                             <div class="front-canvas-container-info-position">
